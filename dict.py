@@ -5,3 +5,4 @@ phone_book["Bob"] = "3434354"
 del phone_book["Charlie"]
 print(phone_book)
 print(phone_book.get("Eve"))        
+#remove the last command from the first file cause it will return None since there is no key "Eve" #print(phone_book.get("Eve"))        
